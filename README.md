@@ -3,7 +3,7 @@
 
 Save this code as a favorite or bookmark:
 ``` javascript
-javascript:fetch("https://raw.githubusercontent.com/seu-usuario/seu-repo/main/seu-codigo.js")
+javascript:fetch("")
   .then(r => r.text())
   .then(eval)
   .catch(e => alert("Failed to load the code: " + e));
