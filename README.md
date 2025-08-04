@@ -3,7 +3,7 @@
 
 Save this code as a favorite or bookmark:
 ``` javascript
-javascript:fetch("")
+javascript:fetch("https://raw.githubusercontent.com/K4LL/Anti-Copy-Paste-Blocker/refs/heads/main/main.js")
   .then(r => r.text())
   .then(eval)
   .catch(e => alert("Failed to load the code: " + e));
